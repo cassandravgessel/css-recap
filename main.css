@@ -24,3 +24,150 @@ h2,
 p {
   margin: 0;
 }
+
+@font-face {
+  font-family: 'barlow';
+  src: url(/assets/Barlow-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'barlowcondensed';
+  src: url(/assets/BarlowCondensed-ExtraBold.ttf);
+}
+
+header{
+  background-color: var(--void-black);
+  border-bottom: 1px;
+  border-bottom-color: var(--dark-grey);
+  border-style: solid;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+a{
+  color: var(--bone);
+  text-decoration: none;
+}
+
+.headtop{
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+nav{
+  margin-right: 20px;
+}
+
+nav a{
+  color: var(--raw-silver);
+  font-size: 12px;
+  margin: 10px;
+}
+
+.navmaina{
+  color: var(--bone);
+  font-size: 13px;
+  text-decoration: underline var(--raw-silver);
+  text-underline-offset: 5px;
+}
+
+.sct1{
+  background-color: var(--void-black);
+  padding: 20px;
+  padding-bottom: 80px;
+}
+
+.cornerp{
+  color: var(--dark-grey);
+  display: flex;
+  font-size: 12px;
+  justify-content: flex-end;
+  margin-right: 40px;
+  text-align: end;
+}
+
+.behindp{
+  color: var(--raw-silver);
+  margin-top: 400px;
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 1;
+  display: none;
+}
+
+.mainh1{
+  color: var(--bone);
+  font-family: 'barlowcondensed';
+  font-size: 270px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-top: 50px;
+  line-height: 250px;
+  word-spacing: -20px;
+  z-index: 2;
+}
+
+em{
+  gap: -1px;
+  color: var(--acid-lime);
+  z-index: 2;
+}
+
+.btnprijs{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-left: 25px;
+}
+
+.secondaryp{
+  color: var(--raw-silver);
+  font-family: 'barlow';
+  font-size: 10px;
+}
+
+.primaryp{
+  color: var(--bone);
+  font-family: 'barlowcondensed';
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.shopbtn{
+  display: inline-block;
+  color: var(--void-black);
+  background-color: var(--acid-lime);
+  font-family: 'barlowcondensed';
+  margin-left: 25px;
+  padding: 24px;
+}
+
+.btnarrow{
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.sound{
+  background-color: var(--bone);
+}
+
+.soundh2{
+  color: var(--void-black);
+  font-family: 'barlowcondensed';
+  font-size: 150px;
+  margin-left: 25px;
+  margin-top: 100px;
+  line-height: 130px;
+}
+
+.soundp{
+  color: var(--raw-silver);
+  font-size: 13px;
+  margin-left: 25px;
+  margin-top: 40px;
+}
