@@ -78,6 +78,7 @@ nav a{
 .sct1{
   background-color: var(--void-black);
   padding: 20px;
+  padding-bottom: 80px;
 }
 
 .cornerp{
@@ -104,6 +105,7 @@ nav a{
   font-size: 270px;
   font-weight: bolder;
   margin-bottom: 50px;
+  margin-left: 25px;
   margin-top: 50px;
   line-height: 250px;
   word-spacing: -20px;
@@ -120,6 +122,7 @@ em{
   display: flex;
   flex-direction: row;
   gap: 16px;
+  margin-left: 25px;
 }
 
 .secondaryp{
@@ -140,10 +143,31 @@ em{
   color: var(--void-black);
   background-color: var(--acid-lime);
   font-family: 'barlowcondensed';
+  margin-left: 25px;
   padding: 24px;
 }
 
 .btnarrow{
   margin-left: 10px;
   font-weight: 800;
+}
+
+.sound{
+  background-color: var(--bone);
+}
+
+.soundh2{
+  color: var(--void-black);
+  font-family: 'barlowcondensed';
+  font-size: 150px;
+  margin-left: 25px;
+  margin-top: 100px;
+  line-height: 130px;
+}
+
+.soundp{
+  color: var(--raw-silver);
+  font-size: 13px;
+  margin-left: 25px;
+  margin-top: 40px;
 }
